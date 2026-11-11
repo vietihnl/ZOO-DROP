@@ -29,13 +29,8 @@ public class GameManager : MonoBehaviour
         isGameOver = true;
 
         int score = mergeManager.Score;
-        int best = PlayerPrefs.GetInt(HighScoreKey, 0);
-        if(score>best)
-        {
-            best = score;
-            PlayerPrefs.SetInt(HighScoreKey, best);
-            PlayerPrefs.Save();
-        }
+        ScoreStorage.TrySetBest(score);
+        int best = ScoreStorage.Best;
 
         Time.timeScale = 0f;
         GameOver?.Invoke(score, best);

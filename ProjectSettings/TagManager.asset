@@ -3,18 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Background
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Animal
+  - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Animal
+  - GamePlay
+  - Background
+  - sceneui
   - 
   - 
   - 
@@ -40,6 +41,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3337317051
+    locked: 0
+  - name: GamePlay
+    uniqueID: 2923418425
+    locked: 0
+  - name: UI
+    uniqueID: 2774166473
+    locked: 0
+  - name: sceneui
+    uniqueID: 2126923431
     locked: 0
   m_RenderingLayers:
   - Default

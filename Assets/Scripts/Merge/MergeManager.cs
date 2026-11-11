@@ -53,6 +53,7 @@ public class MergeManager : MonoBehaviour
         Merged?.Invoke(nextLevel, position);
 
         score += database.Get(nextLevel).Score;
+        ScoreStorage.TrySetBest(score);
         Debug.Log("Score: "+score);
         ScoreChanged?.Invoke(score);
 

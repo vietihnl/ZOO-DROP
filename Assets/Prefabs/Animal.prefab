@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4580436812581123556}
   - component: {fileID: 608073769102966979}
   - component: {fileID: 3813751396317303772}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Animal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
